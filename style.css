@@ -1,0 +1,212 @@
+/* UTILITIES */
+:root {
+    --basic-color:  #15406a;
+    --dark-color: #333;
+    --white-color: #fff;
+    --basic-light: #0d6efd;
+    --bg-color: #070729;
+}
+body {
+    font-family: "Franklin Gothic ITC",Helvetica,Arial,sans-serif;
+    background-image: url(images/document.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+a {
+    text-decoration: none;
+    color: var(--basic-color);
+}
+a:hover {
+    color: var(--basic-light);
+}
+ul, ol {
+    list-style: none;
+}
+
+
+/* Header and Menu */
+
+nav {
+    margin-bottom: 20px;
+    z-index: 30 !important;
+  }
+    nav button {
+        border: none !important;
+        background-color: var(--white-color);
+        color: #cccad6;
+    }
+    .nav a {
+        color: var(--basic-color);
+    }
+
+.info {
+    margin-top: 80px;
+    background-color: var(--bg-color);
+    height: 75px;
+    z-index: 1;
+}
+.info a {
+    color: var(--white-color);
+}
+   
+
+
+    /* Offcanvas Menu/Search */
+#navbar-menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #fffffffa;
+        z-index: 20;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        overflow-y: scroll;
+    }
+ #navbar-search {
+    position: fixed;
+    align-items: center;
+    /* margin-top: 80px; */
+    width: 100%;
+    height: 100vh;
+    background-color: #fffffffa;
+    z-index: 20;
+    /* justify-content: center; */
+    display: none;
+ }
+ #navbar-search ::-webkit-input-placeholder {
+     color: #0d6dfdcd;
+ }
+ #navbar-search input {
+     font-size: 3rem;
+     border-color: var(--basic-light);
+     margin: 0 25px;
+ }
+ #navbar-search a {
+     text-decoration: none;
+     position: relative;
+     top: 25px;
+     left: -75px;
+     color: #0d6dfd77;
+     cursor: pointer;
+ }
+ #navbar-search a.fa-search {
+    font-size: 38px;
+}
+.menu {
+    display: grid !important;
+    }
+.search-bar {
+    display: grid !important;
+    }
+    .main-menu ul, .menu-options ul {
+        list-style: none;
+    }
+    .main-menu a {
+        text-decoration: none;
+        color: var(--basic-color);
+        font-size: 2.5rem;
+    }
+    .main-menu a:hover, .menu-options a:hover {
+        color: var(--basic-light);
+    }
+
+    .menu-options a {
+        text-decoration: none;
+        color: var(--basic-color);
+    }
+    .menu-options li  {
+        padding: 15px 0;
+    }
+    .main-menu {
+        border-right: 1px solid var(--basic-color);
+        padding-right: 50px;
+    }
+
+
+/* first-carousel */
+.carousel-item a {
+    color: var(--basic-color);
+}
+
+
+/* Article */
+section article {
+    margin: 0 auto;
+}
+section article p {
+    font-size: 20px;
+}
+section article h2 {
+    font-size: 24px;
+}
+
+
+/* testimonial */
+.testimonial {
+    background-image: url(images/shape-4.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 400px;
+}
+
+/* Celebration */
+.celebration {
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    /* height: 300px; */
+}
+
+
+
+/* footer */
+footer {
+    background-color: var(--bg-color);
+    color: var(--white-color);
+}
+footer a {
+    padding: 0 20px;
+    color: var(--white-color);
+}
+footer li {
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+
+/* Header/Menu/Search */
+    .main-menu {
+        border-right: none;
+        border-bottom: 1px solid var(--basic-color);
+        border-width: 100%;
+        padding-right: 0;
+        padding-top: 50px;
+    }
+    .main-menu::after {
+        content: '';
+        width: 100%;
+        height: 10px;
+        border-bottom: 1px solid var(--basic-color);
+    }
+    #navbar-options {
+        justify-content: start;
+    }
+    #navbar-menu {
+        justify-content: left;
+        padding: 40px;
+    }
+    #navbar-search {
+        /* margin-top: 50px; */
+    }
+    #navbar-search input {
+        font-size: 1rem;
+    }
+    #navbar-search a.fa-search {
+        font-size: 20px;
+        top: 10px;
+        left: -30px;
+    }
+}
