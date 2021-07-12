@@ -1,10 +1,10 @@
 .hero {
-    background-image: url(images/library.jpg);
+    background-image: url(images/shape-5.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #00000010;
     background-blend-mode: overlay;
-    height: 500px;
+    height: 200px;
     margin-top: 85px;
 }
 .hero h1 {
@@ -23,7 +23,17 @@
     padding-bottom: 20px;
     color: var(--basic-color);
 }
+.pagination .page-link {
+    background-color: #dfe1e2 ;
+}
+.pagination .active {
+    background-color: var(--basic-color);
+}
 
+.blog-grid .btn {
+    background-color: var(--basic-color);
+    color: var(--white-color);
+}
 
 
 /* Media Queries */
