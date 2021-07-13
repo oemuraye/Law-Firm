@@ -379,4 +379,12 @@ nav .hamburger .fa, nav .search .fa {
 
 }
 
-
+/* Extra Small */
+@media (max-width: 400px) {
+    header .navbar-brand img {
+        width: 250px;
+    }
+    .info {
+        margin-top: 75px;
+    }
+}
