@@ -152,20 +152,20 @@ header .carousel-item img {
 
 
 /* Article/About */
-section article {
+.home-about article {
     margin: 0 auto;
 }
-section article p {
+.home-about article p {
     font-size: 20px;
 }
-section article h2 {
+.home-about article h2 {
     font-size: 24px;
     color: var(--basic-light);
 }
-.about-article {
+.home-about-article {
     border: 1px solid var(--basic-light);
 }
-.about-info:hover .about-article {
+.home-about-info:hover .about-article {
     background-color: ;
     color: ;
 }
@@ -186,7 +186,8 @@ section article h2 {
     top: 10px;
 }
 .cases:hover, 
-.about-info:hover {
+.home-about-info:hover,
+.mission-article:hover {
     transform: scale(1.05);
 }
 
@@ -362,7 +363,7 @@ nav .hamburger .fa, nav .search .fa {
         top: 10px;
         left: -50px;
     }
-    .about-article .ps-3,
+    .home-about-article .ps-3,
     .cases-text {
         font-size: 16px;
     }

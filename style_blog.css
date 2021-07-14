@@ -1,15 +1,15 @@
 .hero {
-    background-image: url(images/shape-5.png);
+    background-image: url(images/balance.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #00000010;
+    background-color: #ffffff10;
     background-blend-mode: overlay;
     height: 200px;
     margin-top: 85px;
 }
 .hero h1 {
     font-size: 75px;
-    color: var(--basic-light);
+    color: var(--white-color);
 }
 
 .hero,
