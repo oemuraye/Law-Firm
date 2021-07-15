@@ -147,7 +147,15 @@ header .carousel .btn-primary {
     color: #fff;
 }
 header .carousel-item img {
+    opacity: 0.5;
     object-fit: cover;
+}
+header .carousel-item {
+    background-color: #000;
+}
+header .carousel-item h1 {
+    font-weight: bolder;
+    font-size: 50px;
 }
 
 

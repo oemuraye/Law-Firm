@@ -37,8 +37,8 @@
 }
 
 .blog-details .social-links a  {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     background-color: #b8b4b4;    
     margin: 0 5px;
     border-radius: 50%;
@@ -47,7 +47,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    padding-top: 12px;
+    padding-top: 7px;
 }
 .blog-details .social-links a:hover {
     transform: scale(1.08);
@@ -91,6 +91,14 @@
     transform: scale(1.06);
 }
 
+
+.about-testimonial {
+    background-image: url(images/document.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-color: #452b0677;
+    background-blend-mode: overlay;
+}
 
 
 /* Media Queries */
