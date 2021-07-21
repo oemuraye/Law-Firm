@@ -12,7 +12,7 @@ body {
     font-family: "Franklin Gothic ITC",Helvetica,Arial,sans-serif;
 }
 .home {
-    background-image: url(images/document.jpg);
+    background-image: url(../images/document.jpg);
     background-repeat: no-repeat;
     background-position: cover;
     background-color: #00000010;
@@ -204,9 +204,6 @@ header .carousel-item h1 {
 
 /* Testimonial Section*/
 .testimonial {
-    /* background-image: url(images/shape-5.png);
-    background-repeat: no-repeat;
-    background-position: cover; */
     background-color: #452b0677;
 }
 .customer-info p {
@@ -224,7 +221,7 @@ header .carousel-item h1 {
 
 /* CelebrationSection */
 .celebration {
-    background-image: url(images/shape-5.png);
+    background-image: url(../images/shape-5.png);
     background-repeat: no-repeat;
     background-position: cover;
 }

@@ -1,11 +1,12 @@
 .hero {
-    background-image: url(images/balance.jpg);
+    background-image: url(../images/balance.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #ffffff10;
     background-blend-mode: overlay;
     height: 200px;
     margin-top: 85px;
+    z-index: 5;
 }
 .hero h1 {
     font-size: 75px;
@@ -17,12 +18,12 @@
     margin-top: 75px;
     z-index: 1;
 }
-
 .contact-head h1 {
     font-size: 75px;
     padding-bottom: 20px;
     color: var(--basic-color);
 }
+
 .pagination .page-link {
     background-color: #dfe1e2 ;
 }
@@ -93,7 +94,7 @@
 
 
 .about-testimonial {
-    background-image: url(images/document.jpg);
+    background-image: url(../images/document.jpg);
     background-repeat: no-repeat;
     background-position: cover;
     background-color: #452b0677;
@@ -106,31 +107,38 @@
 .gallery-block .hover {
     z-index: 1;
     position: relative;
-    bottom: 150px;
-    left: 0;
-    padding: 10px;
-    font-size: 17px;
+    top: -50px;
     line-height: 18px;
-    /* width: 100%; */
-    opacity: 1;
-    color: #fff;
+    width: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: var(--basic-light);
     transition: 0.8s ease;
-    text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.631));
-    opacity: 0;
-}
-.gallery-block img:hover .hover {
-    opacity: 1;
-}
-.gallery-block img:hover {
-    transform: scale(1.08);
-    transition: 1s ease;
-}
-.gallery-item {
-    overflow: hidden;
+    text-align: center;   
 }
 
+.gallery-item:hover {
+    transform: scale(1.08);
+    transition: 0.8s ease;
+    opacity: 0.8;
+}
+.gallery-item:hover .hover {
+    display: none;
+}
+.gallery-item:hover span {
+    display: block;
+}
+.gallery-item img {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.576);
+}
+.gallery-item span {
+    z-index: 1;
+    position: relative;
+    top: -280px;
+    left: 180px;
+    display: none;
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
