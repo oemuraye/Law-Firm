@@ -107,12 +107,11 @@
 .gallery-block .hover {
     z-index: 1;
     position: relative;
-    top: -50px;
-    line-height: 18px;
+    top: -100px;
     width: 100%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
-    color: var(--basic-light);
+    color: var(--white-color);
     transition: 0.8s ease;
     text-align: center;   
 }
