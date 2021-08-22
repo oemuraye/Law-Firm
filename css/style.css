@@ -10,21 +10,7 @@
 
 body {
     font-family: "Franklin Gothic ITC",Helvetica,Arial,sans-serif;
-    margin: 0 auto !important;
-    /* padding-left: 0 !important;
-    padding-right: 0 !important; */
-}
-* {
-    box-sizing: border-box;
-    /* padding-left: 0 !important;   
-    padding-right: 0 !important;    */
-}
-
-.container, 
-.container-fluid {
-    /* padding-left: 0 !important;
-    padding-right: 0 !important; */
-   
+    margin: 0 auto;
 }
 .home {
     background-image: url(../images/document.jpg);
