@@ -10,10 +10,25 @@
 
 body {
     font-family: "Franklin Gothic ITC",Helvetica,Arial,sans-serif;
+    margin: 0 auto !important;
+    /* padding-left: 0 !important;
+    padding-right: 0 !important; */
+}
+* {
+    box-sizing: border-box;
+    /* padding-left: 0 !important;   
+    padding-right: 0 !important;    */
+}
+
+.container, 
+.container-fluid {
+    /* padding-left: 0 !important;
+    padding-right: 0 !important; */
+   
 }
 .home {
     background-image: url(../images/document.jpg);
-    background-repeat: no-repeat;
+    background-repeat:repeat-y;
     background-position: cover;
     background-color: #00000010;
     background-blend-mode: overlay;
@@ -33,7 +48,7 @@ ul, ol {
 /* Header and Menu */
 
 header nav {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     z-index: 30 !important;
   }
    header nav button {
@@ -180,6 +195,10 @@ header .carousel-item h1 {
     font-size: 50px;
 }
 
+main {
+    width: 100%;
+    display: block;
+}
 
 /* Article/About */
 .home-about article {
@@ -215,7 +234,9 @@ header .carousel-item h1 {
 .mission-article:hover {
     transform: scale(1.05);
 }
-
+.cases-text {
+    padding: 0 5px;
+}
 .more-caese { 
     border-bottom: 1px solid var(--basic-light);
     border-bottom-width: 20px;
@@ -411,6 +432,9 @@ nav .hamburger .fa, nav .search .fa {
         font-size: inherit;
     } */
 
+    .blog h1{
+        padding-top: 32px;
+    }
 
     footer img {
         margin: 0 auto;
