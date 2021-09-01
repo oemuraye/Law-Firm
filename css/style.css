@@ -327,7 +327,7 @@ footer .social-links a:hover {
 }
 @keyframes slideInFromTop {
     0% {
-        transform: translatey(-100%);
+        transform: translateY(-100%);
     }
     100% {
         transform: translateX(0);
@@ -349,10 +349,10 @@ footer .social-links a:hover {
     animation: slideInFromRight 1s ease-in;
 }
 .slide-in-top {
-    animation: slideInFromtop 1s ease-in;
+    animation: slideInFromTop 1s ease-in;
 }
 .slide-in-bottom {
-    animation: slideInFrombottom 1s ease-in;
+    animation: slideInFromBottom 1s ease-in;
 }
 
 

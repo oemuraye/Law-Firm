@@ -11,6 +11,7 @@
 .hero h1 {
     font-size: 75px;
     color: var(--white-color);
+    font-family: "Bembo",Times,serif;
 }
 
 .hero,
@@ -139,6 +140,76 @@
     display: none;
 }
 
+.careers-section {
+    color: var(--basic-color);
+    background-color: #f2f9ff;
+}
+.careers-section article div {
+    background-color: #f2f9ff !important;
+}
+.careers-section .listing {
+    color: #7291a7;
+    font-size: 18px;
+    font-family: "Franklin Gothic ITC",Helvetica,Arial,sans-serif;
+}
+.careers-section article p,
+.careers-section article a {
+    padding: 0 75px;
+    font-size: 26px;
+    font-family: "Bembo",Times,serif;
+}
+.careers-section article a {
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+}
+.careers-section article a span {
+    padding-left: 10px;
+}
+.careers-section article h2 a {
+    padding: 0;
+    font-size: 55px;
+    font-family: "Bembo",Times,serif;
+}
+.system-section {
+    color: var(--basic-color);
+    background-color: #f2f9ff;
+}
+.system-section article div {
+    background-color: #f2f9ff !important;
+}
+.system-section .listing {
+    color: #7291a7;
+    font-size: 18px;
+    font-family: "Franklin Gothic ITC",Helvetica,Arial,sans-serif;
+}
+.system-section article .system-list p,
+.system-section article a {
+    padding: 0 75px;
+    font-size: 26px;
+    font-family: "Bembo",Times,serif;
+}
+.system-details p {
+    font-size: 18px;
+    padding: 0 75px;
+    color: var(--dark-color);
+    line-height: 1.71429em;
+}
+.system-section article a {
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+}
+.system-section article a span {
+    padding-left: 10px;
+}
+.system-section article h2 a {
+    padding: 0;
+    font-size: 55px;
+    font-family: "Bembo",Times,serif;
+}
+
+
 /* Media Queries */
 @media (max-width: 768px) {
     .hero h1,
@@ -146,4 +217,24 @@
     /* margin-top: 75px; */
     font-size: 50px;
     }
+
+    .careers-section article p,
+    .careers-section article a {
+        padding: 0;
+        font-size: 14px;
+    }
+    .careers-section article h2,
+    .system-section article h2 {
+    font-size: 38px;
+    }
+    .system-section .system-details p {
+        padding: 0;
+        font-size: 14px;
+    }
+    .system-section article .system-list p,
+    .system-section article a {
+         padding: 0;
+        font-size: 18px;
+    }
+
 }
