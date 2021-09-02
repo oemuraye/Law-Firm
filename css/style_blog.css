@@ -175,7 +175,8 @@
     color: var(--basic-color);
     background-color: #f2f9ff;
 }
-.system-section article div {
+.system-section article div,
+.privacy-section {
     background-color: #f2f9ff !important;
 }
 .system-section .listing {
@@ -227,7 +228,8 @@
     .system-section article h2 {
     font-size: 38px;
     }
-    .system-section .system-details p {
+    .system-section .system-details p,
+    .privacy-section {
         padding: 0;
         font-size: 14px;
     }
